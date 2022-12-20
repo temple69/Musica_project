@@ -1,0 +1,15 @@
+.audio_container {
+    display: grid;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em;
+    background: #1E1E1E;
+}
+
+.audio_container>article,
+.audio_container>div {
+    width: 30%;
+}

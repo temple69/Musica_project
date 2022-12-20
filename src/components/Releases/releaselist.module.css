@@ -1,0 +1,10 @@
+.figure>img {
+    width: 153px;
+    height: 153px;
+    border-radius: 25px;
+}
+
+.flex {
+    display: flex;
+    gap: 1em;
+}
