@@ -1,19 +1,26 @@
-import './App.css';
-import AudioComponent from './components/Audio/AudioComponent';
-import Chart from './components/Charts/Chart';
+import { Routes,Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Landing from './components/Landing/Landing';
-import Layout from './components/Layout/Layout';
-import Release from './components/Releases/Release';
+import Home from './Pages/Home';
+import Playlist from './Pages/Playlist';
+
+
+
+
 
 function App() {
     return (  
     <>
     <Header/>
-    <Layout>
-        <Landing/>
-    </Layout>
-    <Release/>
+    <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='playlist' element={<Playlist/>}/>
+    </Routes>
+    
+    
+   
+    
+    
     
     
 
