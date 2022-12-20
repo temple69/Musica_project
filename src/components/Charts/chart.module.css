@@ -1,6 +1,6 @@
 .chart {
     display: flex;
-    padding: 0 1em;
+    padding: 1em;
     background: #1A1E1F;
     font-weight: 400;
     color: white;
@@ -10,9 +10,12 @@
 }
 
 .chart>button {
-    height: 20px;
-    width: 50px;
     align-self: center;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 100%;
+    padding: 1em;
+    text-align: center;
+    background-color: transparent;
 }
 
 .chart>div>img {
@@ -24,4 +27,9 @@
 .chart>div {
     display: flex;
     gap: 1.5em;
+}
+
+.artist_detail>h3 {
+    text-overflow: clip;
+    padding-right: 2em;
 }
